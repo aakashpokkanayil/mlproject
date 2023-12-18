@@ -61,3 +61,9 @@ read this doc : https://pymbook.readthedocs.io/en/py2/projectstructure.html#:~:t
 9) Create a folder 'src' and create a file inside src '__init__.py'
 
 10) pip install -r requirements.txt
+
+11) git add . : adding file to commit and push.
+
+12) git commit -m "commit msg"
+
+13) git push -u origin main (push from origin to main branch)
