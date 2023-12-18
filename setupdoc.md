@@ -1,18 +1,20 @@
 
 1) How to open our project in vscode in mac.
+   
     a) open vscode
+   
     b) select open folder
 
-2) Create new environment
+3) Create new environment
     a) In vscode terminal: conda create env_name python==python_verson(mine 3.11) -y
         -- this will create a folder in our project folder, all packages will be added in this env_name folder.
     b) conda activate env_name/
 
-3) Create a README.md file outside env_name
+4) Create a README.md file outside env_name
 
-4) If git is never config before install git global config.(google it go to website do as give only need once in a system.)
+5) If git is never config before install git global config.(google it go to website do as give only need once in a system.)
 
-5) set up github on local and do first push.
+6) set up github on local and do first push.
     a) follow below commands
         git init
         Create a readme
@@ -22,7 +24,7 @@
         git remote add origin https://github.com/aakashpokkanayil/test.git  (new repo path)
         git push -u origin main
 
-6) go to github repo(website) and create a new file there name: .gitignore
+7) go to github repo(website) and create a new file there name: .gitignore
     a) select template dropdown as python and commit thr itself.
         -- its a file which contain list of file names which dont need to get commited.
         -- gitignore - Specifies intentionally untracked files to ignore
