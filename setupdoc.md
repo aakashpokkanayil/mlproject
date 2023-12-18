@@ -7,11 +7,11 @@
 
 3) Create new environment
    
-    a) In vscode terminal: conda create env_name (just a name) python==python_verson(mine 3.11) -y
+       a) In vscode terminal: conda create env_name (just a name) python==python_verson(mine 3.11) -y
    
    this will create a folder in our project folder, all packages will be added in this env_name folder.
    
-    b) conda activate env_name/
+       b) conda activate env_name/
 
 6) Create a README.md file outside env_name
 
