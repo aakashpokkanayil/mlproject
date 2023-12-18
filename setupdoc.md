@@ -6,15 +6,18 @@
     b) select open folder
 
 3) Create new environment
+4) 
     a) In vscode terminal: conda create env_name python==python_verson(mine 3.11) -y
+   
         -- this will create a folder in our project folder, all packages will be added in this env_name folder.
+   
     b) conda activate env_name/
 
-4) Create a README.md file outside env_name
+6) Create a README.md file outside env_name
 
-5) If git is never config before install git global config.(google it go to website do as give only need once in a system.)
+7) If git is never config before install git global config.(google it go to website do as give only need once in a system.)
 
-6) set up github on local and do first push.
+8) set up github on local and do first push.
     a) follow below commands
         git init
         Create a readme
@@ -24,7 +27,7 @@
         git remote add origin https://github.com/aakashpokkanayil/test.git  (new repo path)
         git push -u origin main
 
-7) go to github repo(website) and create a new file there name: .gitignore
+9) go to github repo(website) and create a new file there name: .gitignore
     a) select template dropdown as python and commit thr itself.
         -- its a file which contain list of file names which dont need to get commited.
         -- gitignore - Specifies intentionally untracked files to ignore
