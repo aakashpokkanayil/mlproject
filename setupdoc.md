@@ -38,6 +38,10 @@
     gitignore - Specifies intentionally untracked files to ignore
 
 
+         11) git pull
+    to pull all  data from git repo to local repo.
+
+
 1) set up github.
   a) new envt.
   b) create setup.py
