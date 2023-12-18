@@ -30,9 +30,12 @@
         git push -u origin main
 
 10) go to github repo(website) and create a new file there name: .gitignore
+    
     a) select template dropdown as python and commit thr itself.
-        -- its a file which contain list of file names which dont need to get commited.
-        -- gitignore - Specifies intentionally untracked files to ignore
+    
+    its a file which contain list of file names which dont need to get commited.
+    
+    gitignore - Specifies intentionally untracked files to ignore
 
 
 1) set up github.
