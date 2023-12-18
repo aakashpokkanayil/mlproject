@@ -44,7 +44,8 @@
     
 
 
-1) set up github.
-  a) new envt.
-  b) create setup.py
-  c) create requirments.txt
+12) set up Initial Files.
+    
+  a) create setup.py : with help of setup.py i can build my application as a package(like pandas,seaborn,matplaolib).
+  
+  b) create requirements.txt : I will mention all packages which i used in my project.
