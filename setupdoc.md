@@ -38,8 +38,10 @@
     gitignore - Specifies intentionally untracked files to ignore
 
 
-         11) git pull
-    to pull all  data from git repo to local repo.
+11) to pull all  data from git repo to local repo.
+
+         git pull
+    
 
 
 1) set up github.
