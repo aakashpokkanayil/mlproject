@@ -49,3 +49,6 @@
   a) create setup.py : with help of setup.py i can build my application as a package(like pandas,seaborn,matplaolib).
   
   b) create requirements.txt : I will mention all packages which i used in my project.
+
+
+13) Create a folder 'src' and create a file inside src '__init__.py'
