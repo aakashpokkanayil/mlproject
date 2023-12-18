@@ -4,7 +4,7 @@ from setuptools import find_packages,setup
 HYFEN_E_DOT='-e .'
 def get_requirments(file_path):
     '''
-    this function will return list of requirments
+    this function will return list of requirments.
     '''
     requirments=[]
     with open(file_path) as file_obj:
@@ -22,6 +22,6 @@ setup(
     author='Aakash',
     author_email='aakashpokkanayil@gmail.com',
     packages=find_packages(),
-    install_requires=get_requirments('requirements.txt')
+    install_requires=get_requirments('requirements.txt') # this will return all packages names mentioned in requirements.txt to install_requires parameter by a custom fn get_requirments.
 )
 
