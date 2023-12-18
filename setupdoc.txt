@@ -7,7 +7,7 @@ read this doc : https://pymbook.readthedocs.io/en/py2/projectstructure.html#:~:t
    
     b) select open folder
 
-3) Create new environment
+2) Create new environment
    
        a) In vscode terminal: conda create env_name (just a name) python==python_verson(mine 3.11) -y
    
@@ -15,11 +15,11 @@ read this doc : https://pymbook.readthedocs.io/en/py2/projectstructure.html#:~:t
    
        b) conda activate env_name/
 
-6) Create a README.md file outside env_name
+3) Create a README.md file outside env_name
 
-7) If git is never config before install git global config.(google it go to website do as give only need once in a system.)
+4) If git is never config before install git global config.(google it go to website do as give only need once in a system.)
 
-8) set up github on local and do first push.
+5) set up github on local and do first push.
    
     a) follow below commands
    
@@ -31,7 +31,7 @@ read this doc : https://pymbook.readthedocs.io/en/py2/projectstructure.html#:~:t
         git remote add origin https://github.com/aakashpokkanayil/test.git  (new repo path)
         git push -u origin main
    
-9) go to github repo(website) and create a new file there name: .gitignore
+6) go to github repo(website) and create a new file there name: .gitignore
     
     a) select template dropdown as python and commit thr itself.
     
@@ -41,17 +41,23 @@ read this doc : https://pymbook.readthedocs.io/en/py2/projectstructure.html#:~:t
     
 
 
-11) to pull all  data from git repo to local repo.
+7) to pull all  data from git repo to local repo.
 
          git pull
     
 
 
-12) set up Initial Files.
+8) set up Initial Files.
     
   a) create setup.py : with help of setup.py i can build my application as a package(like pandas,seaborn,matplaolib).
   
   b) create requirements.txt : I will mention all packages which i used in my project.
 
+     At last line mention "-e ."  when i run "pip install -r requirements.txt" "-e ." map to setup.py 
 
-12) Create a folder 'src' and create a file inside src '__init__.py'
+     We will use the pip install requirements.txt command to install Python packages. 
+
+
+9) Create a folder 'src' and create a file inside src '__init__.py'
+
+10) pip install -r requirements.txt
