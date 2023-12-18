@@ -9,7 +9,7 @@
    
        a) In vscode terminal: conda create env_name (just a name) python==python_verson(mine 3.11) -y
    
-   this will create a folder in our project folder, all packages will be added in this env_name folder.
+          this will create a folder in our project folder, all packages will be added in this env_name folder.
    
        b) conda activate env_name/
 
@@ -33,9 +33,9 @@
     
     a) select template dropdown as python and commit thr itself.
     
-    its a file which contain list of file names which dont need to get commited.
+       its a file which contain list of file names which dont need to get commited.
     
-    gitignore - Specifies intentionally untracked files to ignore
+       gitignore - Specifies intentionally untracked files to ignore
     
 
 
