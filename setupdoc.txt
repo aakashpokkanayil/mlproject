@@ -1,4 +1,6 @@
 
+read this doc : https://pymbook.readthedocs.io/en/py2/projectstructure.html#:~:text=find_packages%20is%20a%20special%20function,modules%20under%20your%20source%20directory.
+
 1) How to open our project in vscode in mac.
    
     a) open vscode
