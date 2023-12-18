@@ -6,10 +6,10 @@
     b) select open folder
 
 3) Create new environment
-4) 
+   
     a) In vscode terminal: conda create env_name (just a name) python==python_verson(mine 3.11) -y
    
-   this will create a folder in our project folder, all packages will be added in this env_name folder.
+       this will create a folder in our project folder, all packages will be added in this env_name folder.
    
     b) conda activate env_name/
 
