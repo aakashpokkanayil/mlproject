@@ -29,7 +29,6 @@
         git remote add origin https://github.com/aakashpokkanayil/test.git  (new repo path)
         git push -u origin main
    
-
 9) go to github repo(website) and create a new file there name: .gitignore
     
     a) select template dropdown as python and commit thr itself.
@@ -40,13 +39,13 @@
     
 
 
-10) to pull all  data from git repo to local repo.
+11) to pull all  data from git repo to local repo.
 
          git pull
     
 
 
-11) set up Initial Files.
+12) set up Initial Files.
     
   a) create setup.py : with help of setup.py i can build my application as a package(like pandas,seaborn,matplaolib).
   
