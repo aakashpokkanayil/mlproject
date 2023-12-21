@@ -1,5 +1,5 @@
 import sys
-
+from logger import logging
 
 def err_msg_dtls(error,errordetail:sys):
     _,_,exc_tbl=errordetail.exc_info()
@@ -27,4 +27,5 @@ if __name__=="__main__":
     try:
         a=1/0
     except Exception as e:
+        logging.info('Divide by 0 err')
         raise CustomException(e,sys)    
