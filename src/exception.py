@@ -1,5 +1,5 @@
 import sys
-from logger import logging
+from src.logger import logging
 
 def err_msg_dtls(error,errordetail:sys):
     _,_,exc_tbl=errordetail.exc_info()
