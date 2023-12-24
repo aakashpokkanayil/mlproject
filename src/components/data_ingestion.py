@@ -1,10 +1,12 @@
-import pandas as pd
 import os
 import sys
-from  src.exception import CustomException
+import pandas as pd
 from src.logger import logging
+from dataclasses import dataclass
+from src.exception import CustomException
 from sklearn.model_selection import train_test_split
-from  dataclasses import dataclass
+from src.components.data_transformation import DataTransformation,DataTransformationConfig
+
 
 
 @dataclass
@@ -47,7 +49,9 @@ class DataIngestion:
         
 if __name__=='__main__':
     obj=DataIngestion()
-    obj.Initiate_Data_Ingestion()
-    logging.info('logginng comblited')
+    train_path,test_path=obj.Initiate_Data_Ingestion()
+    data_trans_obj=DataTransformation()
+    data_trans_obj.initiate_data_transformation(train_path,test_path)
+    logging.info('logginng completed')
 
 
