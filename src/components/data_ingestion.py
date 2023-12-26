@@ -6,15 +6,16 @@ from dataclasses import dataclass
 from src.exception import CustomException
 from sklearn.model_selection import train_test_split
 from src.components.data_transformation import DataTransformation,DataTransformationConfig
+from src.components.model_trainer import ModelTrainer
 
 
 
 @dataclass
 class DataIngestionConfig:
     '''This class contais paths required for Data Ingestion class.'''
-    train_data_path:str=os.path.join('artifact','train.csv')
-    test_data_path:str=os.path.join('artifact','test.csv')
-    raw_data_path:str=os.path.join('artifact','raw.csv')
+    train_data_path:str=os.path.join('artifacts','train.csv')
+    test_data_path:str=os.path.join('artifacts','test.csv')
+    raw_data_path:str=os.path.join('artifacts','raw.csv')
 
 
 class DataIngestion:
@@ -51,7 +52,9 @@ if __name__=='__main__':
     obj=DataIngestion()
     train_path,test_path=obj.Initiate_Data_Ingestion()
     data_trans_obj=DataTransformation()
-    data_trans_obj.initiate_data_transformation(train_path,test_path)
-    logging.info('logginng completed')
+    train_arr,test_arr,_=data_trans_obj.initiate_data_transformation(train_path,test_path)
+    modeltrainer=ModelTrainer()
+    print(modeltrainer.initiate_model_trainer(train_arr,test_arr))
+    #logging.info('logginng completed')
 
 
